@@ -1,0 +1,137 @@
+{
+  "profile": {
+    "name": "Yatharth Bisht",
+    "summary": "🚀 AI Developer | LLMs | Full-Stack Engineer | Generative AI Enthusiast\n\nI'm a pre-final year student at DTU who's already deep in the AI game. From building detection and segmentation models 🧠 to deploying my own nano-GPT for Shakespearean verse generation 🎭, I believe in learning by building.\n\n🛠️ Interned at DraftAI (fine-tuned LLMs using HuggingFace) & SUNIC Tech (container ID recognition under CONCOR). Researched ML for smart waste segregation at IIT Delhi.\n\n🤖 Deeply passionate about GenAI — built RAG systems, fine-tuned LLMs, and created intelligent AI agents. Projects like LegalEase & OpenAPI Spec Generator showcase my ability to turn cutting-edge models into real-world tools.\n\n📱 Built LegalEase – auto-generates legal docs from minimal input. Also crafted an OpenAPI spec generator for any CRM (Gemini Long Context Challenge 🧩).\n\n💻 Full-stack dev with scraping/automation tools using Selenium, Playwright & BeautifulSoup. Backend magic with Flask, Express, NodeJS; frontend skills in HTML/CSS/JS.\n\n⚡ Also worked with Kafka for distributed streaming, Docker for deployments & Rust for high-performance modules. All about scalable, efficient engineering.\n\n📈 Currently building a startup in AI – collaborated with Langchain’s cofounder, contributed to CrewAI, and growing fast.\n\nLet’s connect & build something epic! 🌐",
+    "contact": {
+      "email": "yatharth@scaile.tech",
+      "github": "https://github.com/yatharth230703"
+    },
+    "skills": [
+      "AI Development",
+      "Large Language Models (LLMs)",
+      "Generative AI",
+      "Full-Stack Engineering",
+      "Retrieval-Augmented Generation (RAG)",
+      "BERT (Language Model)",
+      "Vector Databases",
+      "Fine-tuning LLMs",
+      "AI Agents",
+      "Python",
+      "Flask",
+      "Django",
+      "Node.js",
+      "Express.js",
+      "Selenium",
+      "Playwright",
+      "BeautifulSoup",
+      "Kafka",
+      "Docker",
+      "Rust"
+    ],
+    "experience": [
+      {
+        "title": "Freelance Software Engineer",
+        "company": "SCAILE Technologies",
+        "period": "May 2025 - Present",
+        "location": "Greater Munich Metropolitan Area"
+      },
+      {
+        "title": "Joint Treasurer",
+        "company": "Technical Council DTU",
+        "period": "January 2025 - Present",
+        "location": "New Delhi, Delhi, India"
+      },
+      {
+        "title": "Co Head",
+        "company": "AIMS-DTU",
+        "period": "August 2024 - Present",
+        "location": "New Delhi, Delhi, India"
+      },
+      {
+        "title": "President",
+        "company": "The Indian Game Theory Society - DTU",
+        "period": "August 2024 - Present",
+        "location": "New Delhi, Delhi, India"
+      },
+      {
+        "title": "Joint Secretary",
+        "company": "Sahitya, the Literary & Debating Society of DTU",
+        "period": "August 2024 - Present",
+        "location": "New Delhi, Delhi, India"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Technology - BTech",
+        "field_of_study": "Computer Science",
+        "school": "Delhi Technological University (Formerly DCE)",
+        "period": "November 2022 - 2026 (Expected)"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Deep Learning Specialisation",
+        "authority": "Coursera",
+        "issued": "April 2024"
+      },
+      {
+        "name": "Machine Learning Specialisation",
+        "authority": "Coursera",
+        "issued": "January 2024"
+      },
+      {
+        "name": "Kaggle intermediate machine learning certification",
+        "authority": "Kaggle",
+        "issued": "August 2023"
+      },
+      {
+        "name": "Kaggle intro to machine learning certification",
+        "authority": "Kaggle",
+        "issued": "August 2023"
+      }
+    ]
+  },
+  "key_activities": [
+    {
+      "type": "Hiring Announcement",
+      "date": "2025-07-11",
+      "content": "🚀 Hiring for a short-term paid collaboration!\nI’m looking for someone to work with me at SCAILE Technologies on a short-term project (2-3 weeks). This is a paid opportunity and could potentially lead to future roles.\n🔍 Looking for someone with:\n>Hands-on experience in browser automation\n>Proficiency in both JavaScript and Python\n>Experience with Playwright (Selenium/Puppeteer also acceptable)\n>Familiarity with AI agents beyond just chatbot frameworks – actual tools and orchestration\n>Familiarity with browser-use is a big plus"
+    },
+    {
+      "type": "Project Launch",
+      "date": "2025-04-21",
+      "content": "🚀 Just launched: Open_PDF2Brainrot — The Free, Open‑Source PDF→Brainrot Converter! \nExams are approaching fast , and I wanted to try the viral PDF to Brainrot microlearning technique. But all the popular tools? Behind steep paywalls. 💸\nSo… I decided to build my own; and I’m sharing it with everyone. Say hello to: Open_PDF2Brainrot 🎉\nWhat it does:\n ✅ Upload any PDF\n ✅ Auto‑generate clean, structured JSON flashcards 📑\n ✅ Turn them into short, punchy Brainrot videos 🎥\n ✅ Browse everything in a slick, responsive web UI 🌐\n ✅ Navigate flashcards + videos like a social feed 🔁\nTech Stack: Python, Django, PyPDF2, MoviePy, Vosk, Gemini API."
+    },
+    {
+      "type": "Professional Announcement",
+      "date": "2025-02-11",
+      "content": "I’m happy to share that I’m starting a new position as an AI Agent Engineering & Marketing Communications Intern at New Native! Excited to get to work alongside the team at the lablab.ai platform. 💫 ✨"
+    },
+    {
+      "type": "Achievement / Event",
+      "date": "2025-01-30",
+      "content": "Thrilled to share that I got selected to attend the Research and Innovation Symposium in Computing (RISC 2025) at Indian Institute of Technology, Bombay organized by CSE at IIT Bombay."
+    },
+    {
+      "type": "Project Showcase",
+      "date": "2024-11-18",
+      "content": "🚀 Leveraging Gemini's Long Context Window to Revolutionize OpenAPI Specification Generation 🎉\nExcited to share my submission for the Google Long Context Competition on Kaggle! In this project, I explored how Generative AI, powered by Gemini's long-context capabilities, can streamline the creation of OpenAPI specifications for CRMs. My approach focused on Context Caching, Many-Shot Prompting, and In-Context Retrieval to automatically generate OpenAPI specs from existing API documentation, dramatically improving accuracy and speed."
+    },
+    {
+      "type": "Achievement / Competition",
+      "date": "2024-10-08",
+      "content": "It was a rewarding experience indeed🌟! I learned a lot throughout the Amazon ML Challenge, and it was exciting to see our approach stand out among LLM-based solutions. We ranked 135th out of 700,000+ participants by developing a model without using any LLM, achieving 50.4% accuracy on a classification task from 130,000 images. Despite hurdles, we pushed through and gained valuable insights, making the journey truly worthwhile.",
+      "note": "This was a repost of a teammate's summary of the event."
+    },
+    {
+      "type": "Professional Announcement",
+      "date": "2024-08-03",
+      "content": "I’m happy to share that I’m starting a new position as Research Intern at Indian Institute of Technology, Delhi!"
+    },
+    {
+      "type": "Article Publication",
+      "date": "2024-06-27",
+      "content": "🚀 Excited to share my first article on Medium, \"GAN Inversion: RE-viewing the Image\"! 🌟 This piece dives into the fascinating world of GAN inversion, exploring how it revolutionizes image editing by manipulating the latent vectors. I would love to hear from the community on how I can improve."
+    }
+  ]
+}

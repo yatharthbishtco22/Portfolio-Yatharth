@@ -1,0 +1,278 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+
+  /* IDE-specific colors - Default theme (Original) - These will be overridden by theme context */
+  --editor-bg: #1A1A1A;
+  --sidebar-bg: #2D2D2D;
+  --accent-blue: #007ACC;
+  --success-green: #267F99;
+  --warning-orange: #D16969;
+  --accent-pink: hsl(330, 81%, 60%);
+  --accent-purple: hsl(270, 95%, 75%);
+  --accent-cyan: hsl(180, 100%, 50%);
+  --text-primary: #E0E0E0;
+  --text-secondary: #B0B0B0;
+  --border-gray: #404040;
+  --hover-gray: #353535;
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background-color: var(--editor-bg);
+    color: var(--text-primary);
+  }
+}
+
+@layer components {
+  .ide-container {
+    background-color: var(--editor-bg);
+    color: var(--text-primary);
+    font-size: 0.8rem; /* 20% smaller base font */
+  }
+  
+  .sidebar-bg {
+    background-color: var(--sidebar-bg);
+  }
+  
+  .border-ide {
+    border-color: var(--border-gray) !important;
+    border-width: 0.5px !important;
+    border-style: solid !important;
+  }
+  
+  .text-primary-ide {
+    color: var(--text-primary);
+  }
+  
+  .text-secondary-ide {
+    color: var(--text-secondary);
+  }
+  
+  .accent-blue {
+    color: var(--accent-blue);
+  }
+  
+  .success-green {
+    color: var(--success-green);
+  }
+  
+  .warning-orange {
+    color: var(--warning-orange);
+  }
+  
+  .hover-gray:hover {
+    background-color: var(--hover-gray);
+  }
+  
+  .bg-accent-blue {
+    background-color: var(--accent-blue);
+  }
+  
+  .bg-success-green {
+    background-color: var(--success-green);
+  }
+  
+  .bg-warning-orange {
+    background-color: var(--warning-orange);
+  }
+  
+  .bg-accent-pink {
+    background-color: var(--accent-pink);
+  }
+  
+  .bg-accent-purple {
+    background-color: var(--accent-purple);
+  }
+  
+  .bg-accent-cyan {
+    background-color: var(--accent-cyan);
+  }
+  
+  .bg-editor {
+    background-color: var(--editor-bg);
+  }
+  
+  .bg-sidebar {
+    background-color: var(--sidebar-bg);
+  }
+  
+  /* Compact sizing classes */
+  .compact-spacing {
+    @apply space-y-2;
+  }
+  
+  .compact-padding {
+    @apply p-2;
+  }
+  
+  .compact-margin {
+    @apply m-1;
+  }
+  
+  /* Mobile-specific improvements */
+  @media (max-width: 640px) {
+    .ide-container {
+      font-size: 0.75rem; /* Even smaller font on mobile */
+    }
+    
+    /* Improve touch targets */
+    button, .cursor-pointer {
+      min-height: 44px;
+      min-width: 44px;
+    }
+    
+    /* Better spacing for mobile */
+    .mobile-spacing {
+      @apply space-y-1;
+    }
+    
+    /* Prevent horizontal scroll on mobile */
+    .mobile-container {
+      overflow-x: hidden;
+    }
+    
+    /* Tech stack badges responsive sizing */
+    .tech-badge {
+      font-size: 0.6rem !important;
+      padding: 0.125rem 0.25rem !important;
+      line-height: 1 !important;
+      max-width: 60px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  
+  /* Chat animation keyframes */
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideOutToRight {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.3);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .chat-slide-in {
+    animation: slideInFromRight 0.5s ease-out;
+  }
+  
+  .chat-slide-out {
+    animation: slideOutToRight 0.3s ease-in;
+  }
+  
+  .chat-bounce-in {
+    animation: bounceIn 0.6s ease-out;
+  }
+}
+
+/* Monaco Editor font family */
+.monaco-editor {
+  font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace !important;
+}
+
+/* Scrollbar styling - Invisible scrollbars */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+/* Firefox scrollbar styling */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
