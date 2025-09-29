@@ -12,7 +12,7 @@
         "course": "B.Tech (Computer Engineering)",
         "year": "2022-2026",
         "institute": "Delhi Technological University, New Delhi",
-        "grade": "8.46 CGPA"
+        "grade": "8.51 CGPA"
       },
       {
         "course": "CBSE (Class XII)",
@@ -31,11 +31,12 @@
       {
         "role": "Founding Engineer",
         "organization": "SCAILE Technologies",
-        "location": "Hybrid-Portugal",
-        "duration": "June 2024 – Present",
+        "location": "Hybrid-Germany",
+        "duration": "May 2025 - September 2025",
         "responsibilities": [
           "Troubleshooting tech-related problems, refactoring and optimizing code, deploying projects on modal cloud",
-          "Building Leadform, a fullstack based form-generation service for managing leads"
+          "Building Leadform, a fullstack based form-generation service for managing leads",
+          "Started working as part-time contractor ,then intern and finally a Founding Engineer"
         ]
       },
       {
